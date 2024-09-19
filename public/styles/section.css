@@ -1,0 +1,45 @@
+.titleHeader {
+    color: #FA9205;
+    text-decoration-line: underline;
+    font-size: 2rem !important;
+}
+
+
+
+.card {
+    border-color: #FA9205;
+    border-radius: 3%;
+    border-width: 5px;
+    padding: 0%;
+}
+.container {
+    font-family: "Libre Franklin", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.view-article {
+    font-size: 1vw;
+    border-color: transparent;
+    background-color: #FA9205;
+}
+
+.card-footer {
+    font-size: 1rem;
+    text-overflow: inherit;
+    background-color: transparent;
+    text-align: right;
+}
+
+.meme {
+    width: 100%;
+    overflow: visible;
+}
+.memePhrase {
+    font-size: 1.5em !important;
+    padding: 0%;
+    align-items: center;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px #FA9205, 0 0 10px darkorange;
+}

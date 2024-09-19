@@ -1,0 +1,99 @@
+.dummy-h1 {
+  color: #FA9205;
+  text-align: center;
+  font-family: "Libre Baskerville", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+h1,.ipsum-generator {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5vw;
+}
+
+#phrase {
+  border-color: #FA9205;
+  border-width: 0.2em;
+  width: 100%;
+  height: auto;
+}
+
+#numOfSentence {
+  width: 50px;
+  border-color: #FA9205;
+  border-width: 0.2em;
+}
+
+input[type="submit"].generate-button {
+  
+  background-color: #FA9205;
+}
+#phrase {
+  height: 10rem;
+  vertical-align: text-top;
+}
+
+
+.scroll-container {
+  height: 30%;
+  overflow-y: scroll;
+  position: relative;
+  background-color: transparent;
+  border: 1px solid #FA9205;
+}
+
+.scroll-text {
+  display: block;
+  padding: 10px;
+  display: lis;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.carousel-image {
+  width: 100%;
+}
+
+#carousel-inner {
+
+  border-radius: 7%;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  /* top: 180pt !important; */
+  bottom: -100pt !important;
+}
+
+.carousel-indicators {
+  bottom: -30pt !important;
+}
+
+.carousel-indicators li {
+
+  background-color: #000 !important;
+
+}
+@media only screen and (max-width: 991px) {
+  .ipsum-generator {
+    font-family: "Libre Franklin", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2em;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .ipsum-generator {
+    font-family: "Libre Franklin", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1em;
+  }
+}
