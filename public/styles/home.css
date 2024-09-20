@@ -20,15 +20,23 @@ h1,.ipsum-generator {
 }
 
 #numOfSentence {
-  width: 50px;
+  width: 100px;
   border-color: #FA9205;
   border-width: 0.2em;
 }
 
-input[type="submit"].generate-button {
+
+
+#removeButton, #copyButton {
+  color: white;
+  background-color: red;
+}
+
+input.generate-button, #copyButton {
   
   background-color: #FA9205;
 }
+
 #phrase {
   height: 10rem;
   vertical-align: text-top;
@@ -36,7 +44,7 @@ input[type="submit"].generate-button {
 
 
 .scroll-container {
-  height: 30%;
+  height: 12em;
   overflow-y: scroll;
   position: relative;
   background-color: transparent;
