@@ -8,21 +8,21 @@
     
 }
 .headerIcon {
-    /* font-family: "Concert One", sans-serif; */
+   
     color: black;
     font-size: 1em;
     font-weight: bolder;
     width: 6em;
 }
 .navButton {
-    /* font-family: "Concert One", sans-serif; */
+   
     font-size: 2em;
     width: 5em;
     color: #FA9205;
 }
 
 .searchBar {
-    /* font-family: "Roboto", sans-serif; */
+ 
     font-family: "Libre Franklin", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -31,7 +31,7 @@
     width: 9em;
 }
 .searchButton {
-    /* font-family: "Roboto", sans-serif; */
+    
     font-family: "Libre Franklin", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -95,10 +95,27 @@
     }
 
     .headerIcon {
-        /* font-family: "Concert One", sans-serif; */
+        
         color: black;
         font-weight: bolder;
         width: 3em;
+    }
+}
+
+@media only screen and (max-width: 575px){
+
+    .headerIcon {
+        
+        color: black;
+        font-weight: bolder;
+        width: 10em;
+        text-align: center;
+    }
+
+    .headerIconDiv {
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }
 

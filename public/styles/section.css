@@ -3,25 +3,29 @@
     text-decoration-line: underline;
     font-size: 2rem !important;
 }
-
-
-
 .card {
+    width: 6em;
     border-color: #FA9205;
     border-radius: 3%;
     border-width: 5px;
     padding: 0%;
 }
-.container {
+#container {
     font-family: "Libre Franklin", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
 
 .view-article {
-    font-size: 1vw;
+    font-size: 1em;
+    overflow: hidden;
     border-color: transparent;
     background-color: #FA9205;
+}
+
+.article-button {
+    display: flex;
+    align-items: baseline;
 }
 
 .card-footer {
@@ -43,3 +47,19 @@
     color: white;
     text-shadow: 1px 1px 2px black, 0 0 25px #FA9205, 0 0 10px darkorange;
 }
+
+.card-body {
+    width: 70%;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    height: 3em;
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 576px) {
+    .card-title {
+        font-size: 1rem;
+    }
+  }
