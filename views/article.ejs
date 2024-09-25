@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles/article.css" />
+    <%- include("partials/header.ejs") %>
+
+</head>
+
+<body>
+    <h1 class="mt-5">
+        <%=locals.title%>
+    </h1>
+    <div class="d-flex align-items-center justify-content-center">
+        <div class="col-lg-6">
+            <div class="d-flex justify-content-center">
+                <h1 class="article-info">Popular Article🔥</h1>
+                <% var myDate=new Date().toJSON().slice(0, 10);%>
+                    <h1 class="article-info">
+                        Posted:
+                        <% if (locals.date) { myDate=locals.date } %>
+                            <%= myDate %>
+                    </h1>
+                    <h1 class="article-info">By: <%= locals.author%>
+                    </h1>
+            </div>
+            <hr>
+            <p style="text-align: center; font-weight: 700;" class="mt-3">
+                <%=locals.comments%>
+            </p>
+            <a href=<%=locals.image%>> <img class="d-block col-lg-12 " src=<%=locals.image%> alt=""> </a>
+            <div class="mt-5">
+                <% locals.article.split('\n\n').forEach(paragraph=> { %>
+                    <p>
+                        <%= paragraph %>
+                    </p>
+                    <% }) %>
+            </div>
+        </div>
+    </div>
+    <script>
+        var myDate = new Date().toJSON().slice(0, 10);
+
+    </script>
+
+    <div class="col-lg-12">
+        <%- include("partials/footer.ejs") %>
+    </div>
+</body>
+
+</html>

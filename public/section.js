@@ -6,20 +6,20 @@ console.log(lastSeg);
 document.addEventListener("DOMContentLoaded", function () {
     // console.log("ABC");
     const articles = {
-        "codeIpsum": ['/database/codeIpsum/article1',
-            '/database/codeIpsum/article2',
-            '/database/codeIpsum/article3',
-            '/database/codeIpsum/article4'],
+        "codeIpsum": ['/database/codeIpsum/code01.json',
+            '/database/codeIpsum/code02.json',
+            '/database/codeIpsum/code03.json',
+            '/database/codeIpsum/code04.json'],
         "catIpsum": [
-            '/database/catIpsum/article1',
-            '/database/catIpsum/article3',
-            '/database/catIpsum/article4',
-            '/database/catIpsum/article5',
+            '/database/catIpsum/cat01.json',
+            '/database/catIpsum/cat02.json',
+            '/database/catIpsum/cat03.json',
+            '/database/catIpsum/cat04.json',
         ],
         "cakeIpsum": [
-            '/database/cakeIpsum/article1',
-            '/database/cakeIpsum/article2',
-            '/database/cakeIpsum/article3',
+            '/database/cakeIpsum/cake01.json',
+            '/database/cakeIpsum/cake02.json',
+            '/database/cakeIpsum/cake03.json',
         ]
     }
     var date = new Date().toJSON().slice(0, 10);
